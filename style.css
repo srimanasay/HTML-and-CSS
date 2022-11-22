@@ -1,0 +1,89 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+.navbar-container{
+   display: flex;
+   justify-content: space-around;
+   margin: 30px;
+}
+
+.grow-list{
+    margin-right: auto;
+}
+.list {
+    display: flex;
+    list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+  
+.list-item {
+    padding: 10px;
+}
+
+li:nth-child(1) {
+    font-weight: bold;
+}
+
+li:nth-child(2){
+    color: #a19fa6;
+}
+li:nth-child(3){
+    color: #a19fa6;
+}
+li:nth-child(4){
+    color: #a19fa6;
+}
+li:nth-child(5){
+    color: #a19fa6;
+}
+
+
+/* .button-group{
+   position: relative;
+} */
+
+
+.nav-button{
+    background-color: #5436a8;
+    color: #ffffff;
+    border: #5436a8 1px solid;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    /* font-size: 15px; */
+}
+
+span{
+    color: #5436a8;
+}
+
+.banner-container{
+    display: flex;
+    margin-left: 30px;
+}
+
+.heading-text{
+    font-size: 60px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+    color: #200c59;   
+    width: auto;
+}
+
+.description {
+    color: #a19fa6;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    width:auto;
+}
+
+
+
+
+/* .nav-button btn{
+    position: relative;
+    margin: 20px;
+} */
+
